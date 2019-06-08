@@ -1,0 +1,10 @@
+# IDE & Editor files
+.vscode
+
+# Compiled binaries
+bin/
+*.bin
+*.o
+
+# Dependencies
+lib/
