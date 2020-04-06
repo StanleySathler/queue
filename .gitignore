@@ -2,9 +2,9 @@
 .vscode
 
 # Compiled binaries
-bin/
+out/
 *.bin
 *.o
 
 # Dependencies
-lib/
+libs/

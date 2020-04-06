@@ -1,11 +1,11 @@
-#include "../lib/assert.h"
+#include "../libs/include/assert.h"
 #include "../src/queue.h"
 
 int
 main()
 {
   queue_t q;
-  
+
   q = queue_create(1);
   assert_int(1, queue_empty(&q), "(queue_empty): Should return true if queue is empty");
   queue_destroy(&q);
